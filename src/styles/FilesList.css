@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.filemanage{
+    width: 100%;
+}
+
+.filetop{
+    display: flex;
+    width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #ccc4c4;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #434646;
+   
+}
+.filetop .MuiSvgIcon-root:nth-child(3){
+    position: absolute;
+    right: 13px;
+    padding: 5px;
+}
+.filetop .MuiSvgIcon-root:nth-child(3):hover{
+    border-radius: 50%;
+    background-color: #c3c3c6;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.filelist--left{
+    flex: 1;
+    display: flex;
+}
+
+.filelist--right{
+    display: flex;
+    margin:0 11px;
+    
+}
+.filelist--right>p:nth-child(1){
+    margin-right: 17px;
+}
+
+.fileslist{
+    display: flex;
+   
+}
+.filesrow{
+    width: 100%;
+    display: flex;
+}

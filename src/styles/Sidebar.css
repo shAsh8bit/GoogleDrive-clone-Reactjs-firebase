@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&display=swap");
+.sidebar {
+  display: flex;
+  padding: 10px 0;
+  border-radius: 0 100px 100px 0;
+  width: 15vw;
+  margin-right: 25px;
+}
+.sidebar:hover {
+  background-color: #ced2d2;
+  cursor: pointer;
+}
+.New {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 13px;
+  padding: 13px 32px 13px 24px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+.New:hover{
+  background-color: #f2f1f1;
+  cursor: pointer;
+}
+.New p {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #5b5b5b;
+  font-family: "Noto Sans Display", sans-serif;
+}
+.SideListitems {
+  display: flex;
+  font-size: 13px;
+  line-height: 1.9;
+  font-family: "Noto Sans Display", sans-serif;
+  color: #6f6b6b;
+}
+.arrow {
+  width: 28px;
+}
+.SideListitems > p {
+  margin-left: 15px;
+}
+hr {
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-color: #ddd9d9;
+  margin: 7px 0px;
+  width: 15vw;
+}
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper{
+  background-color: aqua;
+}
