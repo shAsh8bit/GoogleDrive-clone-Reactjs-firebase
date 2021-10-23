@@ -9,10 +9,10 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 
-function index() {
+function index({userId}) {
   return (
     <div>
-     <New/>
+     <New userId={userId}/>
 
       <SideList arrow icon={(<InsertDriveFileIcon/>)} label="My Drive"/>
       <SideList arrow icon={(<ComputerIcon/>)} label="Computers"/>

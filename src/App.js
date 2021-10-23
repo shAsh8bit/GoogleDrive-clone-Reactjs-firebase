@@ -36,9 +36,9 @@ function App() {
         <Navbar userPhoto={user.photoURL} />
 
         <div className="app_mainbox">
-          <SideBar />
+          <SideBar userId={user.uid}/>
 
-          <FilesList />
+          <FilesList userId={user.uid}/>
         </div>
       </div>
       ):(<div className='app__login'>

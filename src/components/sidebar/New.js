@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function New({UserID}) {
+function New({userId}) {
   const classes = useStyles();
 
   const [modalStyle] = useState(getModalStyle);
@@ -66,7 +66,7 @@ function New({UserID}) {
           .then((url) => {
             //post image inside the db
 
-            db.collection("myFiles").add({
+            db.collection(`myFiles.${userId}`).add({
               timestamp: firebase.firestore.FieldValue.serverTimestamp(),
               caption: file.name,
               fileUrl: url,

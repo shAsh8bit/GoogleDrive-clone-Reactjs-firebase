@@ -66,7 +66,7 @@
 .rightIcons {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 .rightIcons .MuiSvgIcon-root {
   margin: 6px;
@@ -80,8 +80,6 @@
 .userIcon{
   display: flex;
   align-items: center;
-  margin-right: -40px
- 
 }
 .userIcon .MuiSvgIcon-root:nth-child(1){
   margin-right: 25px;
